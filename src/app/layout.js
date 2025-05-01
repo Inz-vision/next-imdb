@@ -1,10 +1,10 @@
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
-import Header from './components/Header';
-import ThemeCom from './components/ThemeCom';
+import Header from '@/components/Header';
+import ThemeCom from '@/components/ThemeCom';
 import { ClerkProvider } from '@clerk/nextjs';
-import Navbar from './components/Navbar';
-import SearchBox from './components/SearchBox';
+import Navbar from '@/components/Navbar';
+import SearchBox from '@/components/SearchBox';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
